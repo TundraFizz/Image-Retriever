@@ -12,8 +12,6 @@ class ImageRetriever:
         self.url += "board/attachment.php?attachmentid="
         first_id = 1
         final_id = 9999999
-        first_id = 999998
-        final_id = 1000002
         id_length = len(str(final_id))
         self.initialize_directory()
 
